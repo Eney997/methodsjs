@@ -161,6 +161,78 @@
 
 
 
+// 13) reduce method 
+// const numbers = [1,2,3,4,5]
+// const newNumbers = numbers.reduce((previous,current)=> previous+current,0)  shekrebs esec
+// console.log(newNumbers)
+
+
+
+
+// 14)spread operatori
+// masivebis da objebis gaertianeba
+//masivebze
+// const num1 = [1,2,3,4,5]
+// const num2 = [6,7,8,9,0]
+
+// const allNum = [...num1,...num2]
+
+// console.log(allNum)
+// obieqtebze
+// const cars = {
+//     saxeli:'ferari',
+//     country:'Italy',
+// }
+// const features = {
+//     color:'red',
+//     type:'hyper car',
+// }
+// const everythingTogether = {
+//     ...cars,
+//     ...features          //ert objshi dailogeba yvela
+// }
+// console.log(everythingTogether)
+
+
+
+
+
+//15) js PROMISE asonqronuli funqciebi
+// const promise = new Promise((resolve,reject) => {
+//     if(1<2){
+//         resolve ('succses')
+//         return
+//     }                           //then da catch icheren ra dzmebs resolves da rejects
+//     reject ('error')
+// })
+// promise.then(result=>console.log(result))
+// .catch(error=> console.log(error))
+
+
+
+
+
+//16) js async await working with promise only
+// let promise = new Promise((resolve,reject)=>{
+//     const users = ['gela','zaza','sandri']
+//     if (false){
+//         resolve ('succsess')
+//         return 
+//     }
+//     reject ('ashibka suka')
+// })                              //asinc await qvevit imito viyenebt
+                                   //try catchs ro eroric davichirot
+                                     
+// const PrintUser = async()=>{
+//     try {
+//         const result= await promise
+//         console.log(result)
+//     }
+//     catch (error) {
+//         console.log(error)
+//     }
+// }
+// PrintUser()
 
 
 
