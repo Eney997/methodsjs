@@ -1,0 +1,19 @@
+h1 {
+    display: grid;
+    place-items: center;
+    color:yellow;
+    margin-top: 220px;
+    font-size: 50px;
+}
+body {
+    background-color: black;
+}
+@media (width > 1440px) {
+    h1 {
+        display: grid;
+        place-items: center;
+        color:yellow;
+        margin-top: 220px;
+        font-size: 200px;
+    }
+}
