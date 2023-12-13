@@ -237,6 +237,19 @@
 
 
 
+// append in html from js
+
+// function generateDiv(){
+//     setInterval(() => {
+//        let div = document.createElement('div')
+//        div.style.width = '50px'        
+//        div.style.height = '50px'        
+//        div.style.background = 'purple'        
+       
+//        document.body.prepend(div)
+//     }, 3000);
+// }
+// generateDiv()
 
 
 
